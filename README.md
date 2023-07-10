@@ -4,7 +4,7 @@
 
 Esse é a minha primeira Landing Page criado do zero, tive algumas dificuldades mas estou conseguindo ver alguma melhora na organização. (Atividade do curso B7Web)
 
-### Link do projeto: _[https://denilsontx.github.io/denilsontx/primeira-landing-page-marcela-salgadinhos/](https://denilsontx.github.io/denilsontx/primeira-landing-page-marcela-salgadinhos/)_
+### Link do projeto: _[https://denilsontx.github.io/primeira-landing-page-marcela-salgadinhos/](https://denilsontx.github.io/primeira-landing-page-marcela-salgadinhos/)_
 
 ## Layout da Aplicação
 ![Cap_areaprincipal](https://github.com/denilsontx/primeira-landing-page-marcela-salgadinhos/assets/136747514/99112b60-d088-46e0-9eea-441824baf5c8)
