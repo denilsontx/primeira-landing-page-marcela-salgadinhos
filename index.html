@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/> 
+    <title>Marcela Salgadinhos</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" /> <!--é uma biblioteca para padronizar os nossos comandos para os navedores (ex: Chrome e Edge), ele corrige alguns bugs que existem nas estilizações padrões dos navegadores-->
+    <link rel="stylesheet" href="assets/css/template.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector (".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Marcela <br/>Salgadinhos</h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile"><!--Aqui vai ser um botao, a imagem do botao vai ser aqueles tres ponto que quando clicado abre uma aba de navegacao-->
+                        <div class="mm_line"></div><!--mm_line significa Linha do MenuMobile-->
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">Área principal</a></li>
+                        <li><a href="#tipos_de_salgadinhos">Tipos de salgadinhos</a></li>
+                        <li><a href="#faca_a_sua_encomenda">Faça a sua encomenda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <div class="banner_headline">
+                <h2>Os melhores salgadinhos</h2>
+
+                <h3>Salgadinhos crocantes por fora, macios por dentro e recheios inesqueciveis...</h3>
+
+                <a href="#" target="_blank" title="Fazer pedido">
+                    <button>Faça já o seu pedido!</button>
+                </a>
+            </div>  
+        </div>
+    </section>
+
+    <section class="container_flexcenter">
+        <div class="container_990px">
+
+            <div id="tipos_de_salgadinhos">
+                <div class="title">
+                    <h1>Tipos de salgadinhos:</h1>
+                </div>
+                <div class="bar">
+                    <div class="edit_bar"></div>
+                </div>
+            </div>
+
+            <div class="container_flexcenter">
+                <div class="salgado_gp">
+                    <div class="salgado_frame1">
+                        <div>
+                            <div class="container_flexcenter">
+                                <img src="assets/images/pastel1.png" alt="pastel" class="img_salgadinhos">                                
+                            </div>
+                        </div>
+                        <div class="container_flexcenter">
+                            <div class="description">
+                                <h3>Pastel</h3>
+                                <div class="container_flexcenter">
+                                    <p>Pastel super crocante com um recheio maravilhoso de carne moida.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="salgado_frame1">
+                        <div>
+                            <div class="container_flexcenter">
+                                <img src="assets/images/risolis1.png" alt="risoles" class="img_salgadinhos">                            
+                            </div>
+                        </div>
+                        <div class="container_flexcenter">
+                            <div class="description">
+                                <h3>Risoles</h3>
+                                <div class="container_flexcenter">
+                                    <p>Risoles de frango super recheado, a preferida da galera.</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="salgado_frame2">
+                        <div>
+                            <div class="container_flexcenter">
+                                <img src="assets/images/coxinha1.png" alt="coxinha" class="img_salgadinhos">                              
+                            </div>
+                        </div>
+                        <div class="container_flexcenter">
+                            <div class="description">
+                                <h3>Coxinha</h3>
+                                <div class="container_flexcenter">
+                                    <p>Coxinha de frango, um clássico com recheio bem suculento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="salgado_frame2">
+                        <div>
+                            <div class="container_flexcenter">
+                                <img src="assets/images/bolinhadequeijo1.png" alt="bolinha de queijo" class="img_salgadinhos">
+                            </div>
+                        </div>
+                        <div class="container_flexcenter">
+                            <div class="description">
+                                <h3>Bolinha de queijo</h3>
+                                <div class="container_flexcenter">
+                                    <p>Bolinha de queijo, crocante por fora e com queijo derretido por dentro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="container_flexcenter">
+        <div class="container_990px">
+
+            <div id="faca_a_sua_encomenda">
+                <div class="title">
+                    <h1>Faça a sua encomenda:</h1>
+                </div>
+                <div class="bar">
+                    <div class="edit_bar"></div>
+                </div>
+            </div>
+
+            <div class="container_flexcenter">
+                <img src="assets/images/salgadinhos.PNG" alt="salgadinhos" class="img_enc_salgadinhos">
+            </div>
+
+            <div class="container_flexcenter">
+                <h2 class="order_text">Salgadinhos de festa caseiro, aceitamos encomendas de no minimo 50 salgadinhos.</h2>
+            </div>
+
+            <div class="container_flexcenter">
+                <a href="#" target="_blank" title="Fazer pedido">
+                    <button>Faça já o seu pedido!</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <div><i>Landing page</i> feita por <i>Denilson Teixeira</i> apenas para fins de treinamento.</div>
+    </footer>
+</body>   
+</html>
