@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Esse é a minha primeira Landing Page criado do zero, tive algumas dificuldades mas estou conseguindo ver alguma melhora na organização. (Atividade do curso B7Web)
+Esse é a minha primeira Landing Page criado do zero, fiz ela para a minha mãe, não será utilizado, foi feito para mostrar o meu progresso, tive algumas dificuldades, mas estou conseguindo ver alguma melhora na organização. (Atividade do curso B7Web)
 
 ### Link do projeto: _[https://denilsontx.github.io/primeira-landing-page-marcela-salgadinhos/](https://denilsontx.github.io/primeira-landing-page-marcela-salgadinhos/)_
 
